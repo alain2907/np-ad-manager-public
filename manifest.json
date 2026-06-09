@@ -1,0 +1,18 @@
+{
+  "name": "NP Ad Manager",
+  "slug": "np-ad-manager",
+  "version": "0.1.0",
+  "download_url": "https://github.com/alain2907/np-ad-manager-public/releases/download/v0.1.0/np-ad-manager.zip",
+  "requires": "5.8",
+  "tested": "6.7",
+  "requires_php": "7.4",
+  "author": "newpod",
+  "author_homepage": "https://gastronoom.fr",
+  "homepage": "https://github.com/alain2907/np-ad-manager-public",
+  "last_updated": "2026-06-09 00:00:00",
+  "sections": {
+    "description": "Rendu Google Ad Manager (GPT) pour le réseau newpod : 1 tag GPT/page, slots header/incontent/footer, page-level targeting, lazy native, déconfliction Awin via data-np-aff-regie, consent TCF natif (Funding Choices). Aucun appel API GAM (= np-gam-core). Network code en option DB.",
+    "changelog": "<h4>0.1.0</h4><ul><li>Tag GPT (SRA OFF, lazy native, collapseEmptyDivs).</li><li>3 slots in-flow : header (après H1) / incontent (offset Awin) / footer.</li><li>Targeting lang/niche/template/post_cat/awin (awin via regies_on_post() avant wp_head).</li><li>Network code = option np_ad_manager_network_code. Consent Funding Choices natif GPT. Admin notice coexistence Site Kit.</li></ul>",
+    "installation": "Upload via WP admin ou cp/wget réseau. Auto-update via plugin-update-checker (Yahnis Elsts v5.7). Voir INSTALL.md pour le fetch vendor. Config par site (site_slug, niche, network code option) posée par FM/np-gam-core à la cascade."
+  }
+}
