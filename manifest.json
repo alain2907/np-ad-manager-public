@@ -1,8 +1,8 @@
 {
   "name": "NP Ad Manager",
   "slug": "np-ad-manager",
-  "version": "0.2.0",
-  "download_url": "https://github.com/alain2907/np-ad-manager-public/releases/download/v0.2.0/np-ad-manager.zip",
+  "version": "0.2.1",
+  "download_url": "https://github.com/alain2907/np-ad-manager-public/releases/download/v0.2.1/np-ad-manager.zip",
   "requires": "5.8",
   "tested": "6.7",
   "requires_php": "7.4",
